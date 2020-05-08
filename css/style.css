@@ -1,0 +1,94 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.container header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1595A4;
+  width: 100%;
+}
+.container header .titulo {
+  padding: 20px;
+  text-align: center;
+}
+.container header .titulo h2 {
+  color: #ffffff;
+}
+.container header .buscardor {
+  margin-right: 30px;
+  width: 30%;
+}
+.container header .buscardor input[type=text] {
+  padding: 5px;
+  width: 100%;
+  border-radius: 2px;
+  font-size: 18px;
+}
+.container .main {
+  margin: 20px auto;
+  border: 1px solid #707070;
+  border-radius: 6px;
+  width: 90%;
+  background-color: #ffffff;
+}
+.container .main .formulario {
+  margin: 20px;
+}
+.container .main .formulario h3 {
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.container .main .formulario .campos {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 15px;
+}
+.container .main .formulario .campos input[type=text] {
+  width: 60%;
+  padding: 10px;
+  border-radius: 2px;
+}
+.container .main .formulario .campos .inputText {
+  border-color: #c82323;
+}
+.container .main .formulario .campos .btn {
+  width: 30%;
+  border-radius: 6px;
+  border: none;
+  background-color: #3D3131;
+  color: #ffffff;
+}
+.container .main .formulario .tareas {
+  display: block;
+  padding: 20px;
+  list-style: none;
+  border-radius: 2px;
+}
+.container .main .formulario .tareas li {
+  border-radius: 2px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-family: "Times New Roman", Times, serif;
+}
+.container .main .formulario .tareas li button {
+  display: block;
+  float: right;
+  background-color: #c82323;
+  border: none;
+  padding: 5px;
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=style.css.map */
